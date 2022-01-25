@@ -335,7 +335,8 @@
   margin: 0;
 }
 
-#bao-gia-body .ss p a, #bao-gia-body .ss li a {
+#bao-gia-body .ss p a,
+#bao-gia-body .ss li a {
   display: inline;
   font-weight: 600;
   color: #276ae3;
@@ -352,6 +353,13 @@
   #bao-gia-body .ss__head {
     background-image: url("bg-blue1-mb.png");
   }
+}
+
+#bao-gia-body .ss__head .container .pr2,
+#bao-gia-body .ss__head .container .px1,
+#bao-gia-body .ss__head .container .pl2 {
+  margin-bottom: 24px;
+  height: 100%;
 }
 
 @media (max-width: 1000px) {

@@ -1,7 +1,8 @@
 #bao-gia-body {
   margin: 0;
   .ss {
-    p, li {
+    p,
+    li {
       a {
         display: inline;
         font-weight: 600;
@@ -17,6 +18,12 @@
         background-image: url("bg-blue1-mb.png");
       }
       .container {
+        .pr2,
+        .px1,
+        .pl2 {
+          margin-bottom: 24px;
+          height: 100%;
+        }
         @include respond-tabPort {
           .pr2,
           .px1,
