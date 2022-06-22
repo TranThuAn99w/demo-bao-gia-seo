@@ -1,5 +1,9 @@
+<?php /* Template Name: Template Bảng giá SEO 1/10/2021 */ ?>
+
+<?php get_header(); ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../css/bao-gia-new.css">
 </head>
 <body id="bao-gia-body">
     <section class="ss ss__head">
@@ -180,80 +184,35 @@
                         Bảng báo giá dịch vụ SEO từ khóa
                     </h2>
                 </div>
-                <div class="content__table mb3">
-                    <table style="width:100%" class="non-mb">
-                        <!-- row 1 -->
+                <div class="content__table">
+                    <table style="width:100%">
                         <tr class="head">
-                          <th>Độ khó từ khóa</th>
-                          <th>Gói <span><170</span> từ</th>
-                          <th>Gói 170 - 300 từ</th>
-                          <th>Gói > 300 từ</th>
+                          <th style="width:50%">Lượng tìm kiếm/tháng</th>
+                          <th>Giá dịch vụ SEO</th>
+                          <th>Thời gian SEO</th>
                         </tr>
-                        <!-- row 2 -->
-                        <tr class="table__content">
-                            <th style="background: rgba(44, 112, 233, 0.58); color: #fff">Trung bình</th>
-                          <td>1.765.000 đ/từ</td>
-                          <td>999.000 đ/từ</td>
-                          <td>799.000 đ/từ</td>
+                        <tr>
+                          <td>Dưới 3.000 lượt	</td>
+                          <td>5.000.0000 đồng / từ khóa</td>
+                          <td>2 – 3 Tháng</td>
                         </tr>
-                        <!-- row3 -->
-                        <tr class="table__content">
-                            <th style="background: #1B5BCECC; color: #fff">Khó</th>
-                            <td>2.568.200 đ/từ</td>
-                            <td>1.998.000 đ/từ</td>
-                            <td>1.698.500 đ/từ</td>
+                        <tr>
+                            <td>Từ 3.000 lượt đến dưới 7.000 lượt</td>
+                            <td>9.000.0000 đồng / từ khóa</td>
+                            <td>3 - 4 Tháng</td>
                         </tr>
-                        <!-- row4 -->
-                        <tr class="table__content">
-                            <th style="background: rgba(7, 76, 200, 0.85); color: #fff">Rất Khó</th>
-                            <td>4.999.000 đ/từ</td>
-                            <td>3.989.000 đ/từ</td>
-                            <td>3.259.000 đ/từ</td>
+                        <tr>
+                          <td>Từ 7.000 lượt đến 12.000 lượt</td>
+                            <td>15.000.0000 đồng / từ khóa</td>
+                            <td>4 - 6 Tháng</td>
                         </tr>
-                       
-                    </table>
-                    <div class="flex">
-                        <div class="col-sm-6">
-                            <table style="width:100%">
-                                <!-- row 1 -->
-                                <tr class="head">
-                                  <th>Độ khó từ khóa</th>
-                                  <th>Gói <span><170</span> từ</th>
-                                  <th>Gói 170 - 300 từ</th>
-                                  <th>Gói > 300 từ</th>
-                                </tr>
-                            </table>    
-                        </div>
-                        <div class="col-sm-6">
-                            <table style="width:100%">
-                                <!-- row 2 -->
-                                <tr class="table__content">
-                                    <th style="background: rgba(44, 112, 233, 0.58); color: #fff">Trung bình</th>
-                                  <td>1.765.000 đ/từ</td>
-                                  <td>999.000 đ/từ</td>
-                                  <td>799.000 đ/từ</td>
-                                </tr>
-                                <!-- row3 -->
-                                <tr class="table__content">
-                                    <th style="background: #1B5BCECC; color: #fff">Khó</th>
-                                    <td>2.568.200 đ/từ</td>
-                                    <td>1.998.000 đ/từ</td>
-                                    <td>1.698.500 đ/từ</td>
-                                </tr>
-                                <!-- row4 -->
-                                <tr class="table__content">
-                                    <th style="background: rgba(7, 76, 200, 0.85); color: #fff">Rất Khó</th>
-                                    <td>4.999.000 đ/từ</td>
-                                    <td>3.989.000 đ/từ</td>
-                                    <td>3.259.000 đ/từ</td>
-                                </tr>
-                               
-                            </table> 
-                        </div>
-                    </div> 
-                    
+                        <tr>
+                          <td>Từ 12.000 lượt trở lên</td>
+                            <td>Liên hệ</td>
+                            <td>6 - 12 Tháng</td>
+                        </tr>
+                    </table> 
                 </div>
-                <p ><strong>Lưu ý:</strong> GTV sẽ không nhận làm SEO dưới 100 từ. Bảng giá dịch vụ SEO từ khóa trên đã nằm trong gói dịch vụ SEO tổng thể website của GTV.</p>
             </div>
         </div>
     </section>
@@ -633,7 +592,19 @@
                         </div>
                     </div>
                     <div class="lg-col-6 sm-col">
-                        chỗ để form hubbot đăng kí
+                        <div id="form-dang-ky">
+                                                <!--[if lte IE 8]>
+                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                            <![endif]-->
+                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                            <script>
+                            hbspt.forms.create({
+                                portalId: "5312083",
+                                formId: "77a1b511-c025-4439-b931-860b1b3a3b14"
+                            });
+                            </script>
+                      
+                        </div>
                     </div>
                 </div>
             </div>
@@ -776,6 +747,18 @@ GTV SEO luôn cam kết KPIs cho khách hàng dù trong bất cứ hoàn cảnh 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.375095031676!2d106.668817!3d10.835206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0cba880b79e91f6!2zNjc2IFBoYW4gVsSDbiBUcuG7iw!5e0!3m2!1svi!2sus!4v1637862009730!5m2!1svi!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
+    <?php if (function_exists("kk_star_ratings")) { ?>
+
+<section class="rating">
+    <div class="container">
+        <div class="rating-title">
+    <?php echo kk_star_ratings(); ?>
+        </div>
+    </div>
+</section>
+
+<?php
+} ?>
     <div id="modalCompare" class="modal">
         <div class="modal-content">
             <div class="close">
@@ -1035,3 +1018,5 @@ $('ul.tabs li').click(function(){
 	</script>
 </body>
 </html>
+
+<?php get_footer(); ?>
